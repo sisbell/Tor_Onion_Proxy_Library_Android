@@ -67,8 +67,6 @@ task sourceJar(type: Jar) {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'org.slf4j:slf4j-api:1.7.25'
-    implementation 'org.slf4j:slf4j-android:1.7.25'
     implementation 'org.torproject:tor-android-binary:0.3.5.6-rc'
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.github.sisbell:Tor_Onion_Proxy_Library:a5a78f9da0299fbd345219d0e8822d7fb491e2a7'
